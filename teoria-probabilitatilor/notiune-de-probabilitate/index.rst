@@ -2,6 +2,9 @@
 Noțiune de probabilitate. Definiția clasică și definiția axiomatică a probabilității
 ====================================================================================
 
+Definiția clasică și definiția axiomatică a probabilității
+----------------------------------------------------------
+
 14.66. La un magazin au fost aduse 30 de televizoare noi cu ecrane OLED, dintre care 5 au defecte ascunse. 
 La întîmplare se alege un televizor pentru a fis supus controlului de calitate. 
 Să se calculeze probabilitate ca televizorul ales să nu aibă defecte ascunse.
@@ -73,6 +76,9 @@ Se extrag :math:`n` bile (:math:`n\leq M_1+m_2+...+m_s`).
 Să se calculeze probabilitățile evenimentelor următoare:
 A={:math:`n_1` bile au numărul 1, :math:`n_2` bile au numărul 2,... , :math:`n_s` bile au numărul :math:`s`},
 B={lipsesc bilele cu numerele 1 și 2}.
+
+Probabilități geometrice
+------------------------
 
 `Răspunsuri <raspunsuri.html>`_
 
