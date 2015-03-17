@@ -1,25 +1,16 @@
+Rezolvări
+---------
 
-Noțiune de probabilitate. Definiția clasică și definiția axiomatică a probabilității
-====================================================================================
+14.66. :math:`P=\frac{25}{30}=\frac{5}{6}`. 
 
-Definiția clasică și definiția axiomatică a probabilității
-----------------------------------------------------------
+14.67. :math:`P(A)=\frav{5}{100}`.
 
-14.66. La un magazin au fost aduse 30 de televizoare noi cu ecrane OLED, dintre care 5 au defecte ascunse. 
-La întîmplare se alege un televizor pentru a fi supus controlului de calitate. 
-Să se calculeze probabilitate ca televizorul ales să nu aibă defecte ascunse.
-
-14.67. Se consideră un un aparat cu ajutorul căruia se produc piese de un singur tip. 
-Se cunoaște faptul că 5% din toate piesele produse sînt cu defecte (sau rebut). 
-Dintr-un lot de piese produs cu ajutorul acestui aparat se alege la întîmplare o pieseă, pentru a fi supusă controlului calității. 
-Să se caluleze probabilitatea evenimentului A = {piesa alesă are defecte}.  
-
-14.68. Se aruncă un zar pe o suprafață netedă. Să se calculeze probabilitățile evenimentelor următoare:   
-A={numărul de puncte de pe fața superioară este 6},
-B={numărul de puncte de pe fața superioară se divide cu 3},
-C={numarul de puncte de pe fața superioară este un număr par},
-D={numarul de puncte este mai mic decît 5},
-E={numarul de puncte este mai mare decît 2}.
+14.68. 
+:math:`P(A)=\frac{1}{6}`,
+:math:`P(B)=\frac{2}{6}`,
+:math:`P(C)=\frac{3}{6}=\frac{1}{2}`,
+:math:`P(D)=\frac{4}{6}=\frac{2}{3}`,
+:math:`P(E)=\frac{1}{6}`.
 
 14.69. Se aruncă simultan (pe o suprafață netedă) două zaruri (identice și omogene).
 Să se calculeze probabilitățile evenimentelor următoare:
@@ -77,9 +68,4 @@ Să se calculeze probabilitățile evenimentelor următoare:
 A={:math:`n_1` bile au numărul 1, :math:`n_2` bile au numărul 2,... , :math:`n_s` bile au numărul :math:`s`},
 B={lipsesc bilele cu numerele 1 și 2}.
 
-Probabilități geometrice
-------------------------
 
-`Răspunsuri <raspunsuri.html>`_
-
-`Rezolvări <rezolvari.html>`_
