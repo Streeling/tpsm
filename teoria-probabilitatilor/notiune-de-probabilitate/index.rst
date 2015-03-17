@@ -57,7 +57,38 @@ B={vor fi folosite diferite frecvențe}
 
 14.76. Pe tabla de șah. Aleator se pun doua ture albe și neagră. Care e probabilitatea că nu se vor bate.
 
-Probabilitatea sumei de evenimente
-----------------------------------
+Exemplul 7. Dintr-un lot cu 10 piese printre care 3 cu defecte la întîmplare se aleg 3 piese pentru a fi supuse controlului calității.
+A={printre cele 3 alese exact un este cu defcte}
+B={printre cele 3 alese niciuna nu este cu defcte}
+
+14.78. Dintr-un set de domino se aleg la întîmplare 7. Exact o piesă cu 6 puncte.
+
+14.79, Din primele 10 litere ale alfabetului limbii române. Se aleg la întîmplare 5 litere.
+A={printre cele 5 este litera a}
+B={printre cele 5 sînt doar consoane}
+
+14.80. Senatul studențeesc: 3 din anul I, 5 din anul al II-lea, 7 din anul al III-lea.
+Se aleg 5 persoane la întîmplare. 
+A={printre cei 5 sînt doar din anul al III-lea}
+B={printre cei 5 sînt sînt toți din anul I}
+C={printre cei 5 nu este nimeni din anul al II-lea}
+
+14.81. Urnă m_1+m_2 bile, m_1 albe, m_2 negre.
+Se extrac la întîmplare m\leq min(m_1,m_2) bile 
+A={toate bilele sînt albe}
+B={excat k\leq m sînt albe}
+
+15.82. 
+C={cel putin o bilă este albă}
+D={nu mai puțin de k\leq m sînt albe}
+
+14.85. m_1 bile cu numărul1, m_2 bile cu numărul2, ..., m_s bile cu numarul s.
+se extrag n bile.
+A={n_1 buile sînt cu numarul1, n_2 bile sînt cu numărul 2,...,n_s bile sînt cu numărul s}
+B={nu-s bilele cu numerele 1 si 2}
 
 
+
+.. toctree::
+
+   raspunsuri.rst 
