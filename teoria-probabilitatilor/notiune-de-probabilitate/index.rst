@@ -82,13 +82,11 @@ B={excat k\leq m sînt albe}
 C={cel putin o bilă este albă}
 D={nu mai puțin de k\leq m sînt albe}
 
-14.85. m_1 bile cu numărul1, m_2 bile cu numărul2, ..., m_s bile cu numarul s.
+14.85. :math:`m_1` bile cu numărul1, m_2 bile cu numărul2, ..., m_s bile cu numarul s.
 se extrag n bile.
 A={n_1 buile sînt cu numarul1, n_2 bile sînt cu numărul 2,...,n_s bile sînt cu numărul s}
 B={nu-s bilele cu numerele 1 si 2}
 
+`Răspunsuri <raspunsuri.html>`_
 
-
-.. toctree::
-
-   raspunsuri.rst 
+`Rezolvări <rezolvari.html>`_
