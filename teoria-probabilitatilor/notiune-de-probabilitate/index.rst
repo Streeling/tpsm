@@ -1,17 +1,12 @@
 
-Noțiune de probabilitate. Definiția clasică și definiția axiomatică a probabilității. Probabilitatea sumei de evenimente
-========================================================================================================================
-
-Definiția clasică și definiția axiomatică a probabilității 
-----------------------------------------------------------
-
-Schema urnei.
+Noțiune de probabilitate. Definiția clasică și definiția axiomatică a probabilității
+====================================================================================
 
 14.66. La un magazin au fost aduse 30 de televizoare noi cu ecrane OLED, dintre care 5 au defecte ascunse. 
 La întîmplare se alege un televizor pentru a fis supus controlului de calitate. 
 Să se calculeze probabilitate ca televizorul ales să nu aibă defecte ascunse.
 
-14.67. Se consideră un un paparat cu ajutorul căruia se produc piese de un singur tip. 
+14.67. Se consideră un un aparat cu ajutorul căruia se produc piese de un singur tip. 
 Se cunoaște faptul că 5% din toate piesele produse sînt cu defecte (sau rebut). 
 Dintr-un lot de piese produs cu ajutorul acestui aparat se alege la întîmplare o pieseă, pentru a fi supusă controlului calității. 
 Să se caluleze probabilitatea evenimentului A = {piesa alesă are defecte}.  
@@ -20,7 +15,7 @@ Să se caluleze probabilitatea evenimentului A = {piesa alesă are defecte}.
 A={numărul de puncte de pe fața superioară este 6},
 B={numărul de puncte de pe fața superioară se divide cu 3},
 C={numarul de puncte de pe fața superioară este un număr par},
-D={numarul de puncte este mai mic decîț 5},
+D={numarul de puncte este mai mic decît 5},
 E={numarul de puncte este mai mare decît 2}.
 
 14.69. Se aruncă simultan (pe o suprafață netedă) două zaruri (identice și omogene).
@@ -45,47 +40,39 @@ A={numărul este un palindrom},
 B={numărul se divide cu 5},
 C={toate cifrele numărului sînt impare}.
 
-14.73. La 1 sepetembrie la anul I facultatea orar 3 lecții la disciplini diferite
-L aprimul an de tot se studiaza 10 disciplini
-Un student n-a văzut orarul și înceracă să-l ghicească. Care-i porb.
-
-14.75. Patru rații lucrează pe 6 unde/cnale/diapazoane radio.
-Alegerea frecvenței se face la întîmplare. 
-Să se calculeze probabilitățile evenimentelor următoare:
-A={lucrul concomitent măcar două frecbvențe nu vor coincide}
-B={vor fi folosite diferite frecvențe}
-
-14.76. Pe tabla de șah. Aleator se pun doua ture albe și neagră. Care e probabilitatea că nu se vor bate.
+14.76. Pe o tabla de șah se amplsează, în mod aleator, două turnuri (ture): alb și neagru. Care e probabilitatea că aceste două ture nu se vor bate?
 
 Exemplul 7. Dintr-un lot cu 10 piese printre care 3 cu defecte la întîmplare se aleg 3 piese pentru a fi supuse controlului calității.
 A={printre cele 3 alese exact un este cu defcte}
 B={printre cele 3 alese niciuna nu este cu defcte}
 
-14.78. Dintr-un set de domino se aleg la întîmplare 7. Exact o piesă cu 6 puncte.
+14.78. Dintr-un set de piese de domino se aleg la întîmplare 7. Să se calculeze probabilitatea că exact o piesă are 6 puncte.
 
-14.79, Din primele 10 litere ale alfabetului limbii române. Se aleg la întîmplare 5 litere.
-A={printre cele 5 este litera a}
-B={printre cele 5 sînt doar consoane}
+14.79. Din primele 10 litere ale alfabetului limbii române se aleg la întîmplare 5 pentru a forma un nou alfabet.
+Să se calculeze probabilitățile evenimentelor următoare:
+A={alfabetul nou conține litera „a”}
+B={alfabetul nou este format doar din consoane}
 
-14.80. Senatul studențeesc: 3 din anul I, 5 din anul al II-lea, 7 din anul al III-lea.
-Se aleg 5 persoane la întîmplare. 
-A={printre cei 5 sînt doar din anul al III-lea}
-B={printre cei 5 sînt sînt toți din anul I}
+14.80. Dintr-un grup format din: 3 studenți din anul I, 5 - din anul al II-lea și 7 - din anul al III-lea se aleg la întîmplare 5 studenți.
+Să se calculeze probabilitățile evenimentelor următoare:
+A={printre cei 5 sînt doar studenți din anul al III-lea}
+B={printre cei 5 sînt toți studenții din anul I}
 C={printre cei 5 nu este nimeni din anul al II-lea}
 
-14.81. Urnă m_1+m_2 bile, m_1 albe, m_2 negre.
-Se extrac la întîmplare m\leq min(m_1,m_2) bile 
-A={toate bilele sînt albe}
-B={excat k\leq m sînt albe}
+14.81. Dintr-o urnă cu :math:`m_1+m_2` bile, dintre care :math:`m_1` sînt albe și :math:`m_2` sînt negre, se extrag la întîmplare :math:`m\leq min(m_1,m_2)` bile.
+Să se calculeze probabilitățile evenimentelor următoare:
+A={toate bilele sînt albe},
+B={exact :math:`k\leq m` bile sînt albe}.
 
-15.82. 
-C={cel putin o bilă este albă}
-D={nu mai puțin de k\leq m sînt albe}
+15.82. În contextul probelemei 14.81 să se calculeze probabilitățile evenimentelor următoare:
+C={cel puțin o bilă este albă},
+D={nu mai puțin de :math:`k\leq m` sînt albe}.
 
-14.85. :math:`m_1` bile cu numărul1, m_2 bile cu numărul2, ..., m_s bile cu numarul s.
-se extrag n bile.
-A={n_1 buile sînt cu numarul1, n_2 bile sînt cu numărul 2,...,n_s bile sînt cu numărul s}
-B={nu-s bilele cu numerele 1 si 2}
+14.85. Se considera o urnă cu bile numerotate astfel încît :math:`m_1` bile au numărul 1, :math:`m_2` bile au numărul 2, ..., :math:`m_s` bile au numarul :math:`s`. 
+Se extrag :math:`n` bile (:math:`n\leq M_1+m_2+...+m_s`).
+Să se calculeze probabilitățile evenimentelor următoare:
+A={:math:`n_1` bile au numărul 1, :math:`n_2` bile au numărul 2,... , :math:`n_s` bile au numărul :math:`s`},
+B={lipsesc bilele cu numerele 1 și 2}.
 
 `Răspunsuri <raspunsuri.html>`_
 
