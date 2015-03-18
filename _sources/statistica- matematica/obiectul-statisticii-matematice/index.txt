@@ -1,0 +1,3 @@
+Obiectul statisticii matematice
+===============================
+

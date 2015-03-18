@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to TPSM's documentation!
-================================
+Exerciții la Teoria probabilităților și statistica matematică
+=============================================================
 
-Contents:
+Cuprins:
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
+   teoria-probabilitatilor/index.rst
+   statistica-matematica/index.rst
 
-
-Indices and tables
+Index
 ==================
 
 * :ref:`genindex`
