@@ -3,7 +3,7 @@ Rezolvări
 
 14.66. :math:`P=\frac{25}{30}=\frac{5}{6}`. 
 
-14.67. :math:`P(A)=\frav{5}{100}`.
+14.67. :math:`P(A)=\frac{5}{100}=0,05`.
 
 14.68. 
 :math:`P(A)=\frac{1}{6}`,
@@ -12,27 +12,24 @@ Rezolvări
 :math:`P(D)=\frac{4}{6}=\frac{2}{3}`,
 :math:`P(E)=\frac{1}{6}`.
 
-14.69. Se aruncă simultan (pe o suprafață netedă) două zaruri (identice și omogene).
-Să se calculeze probabilitățile evenimentelor următoare:
-A={punctele de fețele superioare ale celor două zaruri sînt egale},
-B={numărul de puncte de pe făța I zar este mai mare decît numărul de puncte de pe fața celui de-al II-lea zar}.
+14.69. 
+:math:`P(A)=6\cdot\frac{1}{36}=\frac{1}{6}`.
+:math:`P(B)=\frac{1}{6}\frac{1}{6}+\frac{1}{6}\frac{2}{6}+...+\frac{1}{6}\frac{5}{6}=\frac{15}{36}=\frac{5}{12}`.
 
-14.70. În condițiile probelemei 14.69
-Să se calculeze probabilitățile evenimentelor următoare:
-C={suma punctelor de pe fețele superioare ale celor două zaruri este un umăr par},
-D={suma punctelor de pe fețele superioare ale celor două zaruri este mai mare decît 2}.
+14.70. 
+:math:`P(C)=6\cdot\frac{3}{36}=\frac{1}{2}`.
+:math:`P(D)=1-\frac{1}{36}=\frac{35}{36}`.
 
-14.71. În condițiile probelemei 14.69
-Să se calculeze probabilitățile evenimentelor următoare:
-E={suma punctelor nu este mai mică decît 5},
-F={fața cu 6 puncte apare cel puțin o singură dată},
-G={produsul punctelor este 6}.
+14.71.
+:math:`P(E)=\frac{3}{36}+\frac{4}{36}+\frac{5}{36}+3\cdot\frac{6}{36}=\frac{30}{36}=\frac{5}{6}`.
+:math:`P(F)=\frac{1}{6}\frac{5}{6}+\frac{5}{6}\frac{1}{6}+\frac{1}{6}\frac{1}{6}=\frac{11}{36}`.
+:math:`P(D)=\frac{4}{36}=\frac{1}{9}`.
 
-14.72. Se alege la întîmplare un număr din 5 cifre. 
-Să se calculeze probabilitățile evenimentelor următoare:
-A={numărul este un palindrom},
-B={numărul se divide cu 5},
-C={toate cifrele numărului sînt impare}.
+14.72. 
+Numărul total de numere din 5 cifre, ținînd cont de faptul că prima cifră nu poate să fie 0, este :math:`9\cdot 10\cdot 10\cdot 10\ cdot 10=90000` sau :math:`99999-9999`.
+:math:`P(A)=\frac{9\cdot 10\cdot 10\cdot 1\cdot 1}{90000}=\frac{900}{90000}=\frac{1}{100}=0,01`.
+:math:`P(B)=\frac{9000\cdot 2}{90000}=\frac{18000}{90000}=\frac{2}{10}=0,2`
+:math:`P(C)=`
 
 14.76. Pe o tabla de șah se amplsează, în mod aleator, două turnuri (ture): alb și neagru. Care e probabilitatea că aceste două ture nu se vor bate?
 
