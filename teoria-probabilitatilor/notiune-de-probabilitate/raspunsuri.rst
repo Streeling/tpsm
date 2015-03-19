@@ -26,5 +26,12 @@ Răspunsuri
 :math:`P(F)=\frac{1}{6}\frac{5}{6}+\frac{5}{6}\frac{1}{6}+\frac{1}{6}\frac{1}{6}=\frac{11}{36}`.
 :math:`P(D)=\frac{4}{36}=\frac{1}{9}`.
 
+14.72. 
+:math:`P(A)=0,01`.
+:math:`P(B)=0,2`
+:math:`P(C)=\frac{5}{144}`.
+
+14.76.
+:math:`\frac{7}{9}`.
 
 
