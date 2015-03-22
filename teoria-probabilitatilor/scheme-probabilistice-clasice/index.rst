@@ -7,8 +7,7 @@ Schema binomială (Bernoulli)
 14.312. Un trăgător trage asupra unei ținte de 4 ori. 
 Știind că probabilitatea de nimerire a țintei este :math:`\frac{1}{4}` să se calculeze probabilitățile evenimentelor următoare:   
 A={ținta să fie nimerită exact o dată},
-B={ținta să fie nimerită exact de 2 ori},
-C={ținta să fie nimerită cel mult de 4 ori}.
+B={ținta să fie nimerită exact de 2 ori}.
 
 Schema Poisson
 --------------
@@ -23,4 +22,6 @@ Schema polinomială
 Schema hipergeometrică
 ----------------------
 
+`Răspunsuri <raspunsuri.html>`_
 
+`Rezolvări <rezolvari.html>`_
