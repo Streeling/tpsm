@@ -12,3 +12,7 @@ Să se calculeze probabilitățile evenimentelor următoare:
 A={pentru toate măsurările eroarea nu a întrecut marja de eroare acceptată},
 B={cel mult la o măsurare eroarea nu a întrecut marja de eroare acceptată},
 C={cel puțin în 2 măsurări succesive eroarea nu a întrecut marja de eroare acceptată}.
+
+`Răspunsuri <raspunsuri.html>`_
+
+`Rezolvări <rezolvari.html>`_
