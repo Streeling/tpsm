@@ -48,8 +48,8 @@ Să se determine repartiția variabilei aleatoare:
 14.328. Probabilitatea ca un dispozitiv să cedeze este 0,2.
 La întîmplare se iau 9 dispozitive pentru verificare.
 
-14.338. Un trăgător cîte un foc asupra unei ținte.
-Probabilitatea de a atinge ținta la prima încercare este 0,8 și se micșorează de 2 ori la fiecare urmatoare tregere.
+14.338. Un trăgător trage de cîteva ori asupra unei ținte.
+Probabilitatea de nimerire a țintei, la prima încercare, este 0,8 și se micșorează de 2 ori la fiecare următoare tregere.
 Se fac 2 trageri.
 Să se determine repartiția variabilei aleatoare X, dacă X indică numărul de atingeri ale țintei.
 
