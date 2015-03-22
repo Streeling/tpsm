@@ -15,3 +15,7 @@ Formula lui Bayes
 14.247. Trei trăgători trag, simultan, cîte un foc asupra aceleiași ținte.
 Probabilitățile de nimeriere a țintei pentru cei 3 trăgători sînt :math:`p_1`, :math:`p_2` și respectiv :math:`p_3`. 
 Să se afle probabilitatea că al II-lea trăgător n-a nimerit ținta, dacă se știe că ținta a fost nimerită de două ori.
+
+`Răspunsuri <raspunsuri.html>`_
+
+`Rezolvări <rezolvari.html>`_
