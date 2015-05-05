@@ -9,4 +9,4 @@ Elemente de teoria a probabilităților
    scheme-probabilistice-clasice/index.rst
    variabile-aleatoare/index.rst
    functia-de-repartitie/index.rst
-   distributia-normala/index.rstml
+   distributia-normala/index.rst
