@@ -56,11 +56,11 @@ Din tabelul P1 găsim că :math:`\Phi(1,5)\approx 0,9332`. Astfel
 
 :math:`P\{|X|<15\}\approx 0,8664`.
 
-14.361. Variabila aleatoare :math:`X` are repartiția :math:`N(1,2)`. Exprimați :math:`F_X(x)` (funcția de repartiție a varaibilei :math:`X`) prin funcția :math:`\Phi(x)`.
+**14.361.** Variabila aleatoare :math:`X` are repartiția :math:`N(1,2)`. Exprimați :math:`F_X(x)` (funcția de repartiție a varaibilei :math:`X`) prin funcția :math:`\Phi(x)`.
 
-14.362. Variabila aleatoare :math:`X` are repartiția :math:`N(m,\sigma)`. Folosind tabelul P1 să se determine probabilitatea :math:`p_k=P\{|X-m_X|<k\sigma\}`, unde :math:`k=\overline{1,3}`.
+**14.362.** Variabila aleatoare :math:`X` are repartiția :math:`N(m,\sigma)`. Folosind tabelul P1 să se determine probabilitatea :math:`p_k=P\{|X-m_X|<k\sigma\}`, unde :math:`k=\overline{1,3}`.
 
-14.363. Variabila aleatoare :math:`X` are repartiția :math:`N(10,5)`. Să se determine intervalul simetric în raport cu :math:`m_X` in care valorile variabilei nimers cu probabilitatea :math:`p`. Dacă se știe că: 
+**14.363.** Variabila aleatoare :math:`X` are repartiția :math:`N(10,5)`. Să se determine intervalul simetric în raport cu :math:`m_X` in care valorile variabilei nimers cu probabilitatea :math:`p`. Dacă se știe că: 
 
 a) :math:`p=0,9974`; 
 
@@ -68,23 +68,23 @@ b) :math:`p=0,9544`;
 
 c) :math:`p=0,5`. 
 
-14.364. O uzină chimică produce acid sulfuric a cărui densitate minimală este de 1,8 g/cm3. În rezultatul unor serii de experimente s-a determinat că practic 99,9% din reactivele produse au densitatea în intervalul (1,82; 1,86). Să se dermine probabilitatea că acidul satisface cerințele standard dacă pentru acesta este suficient ca densitatea acidului să devieze de la valoarea minimală cu nu mai mult de 0,01 g/cm3.
+**14.364.** O uzină chimică produce acid sulfuric a cărui densitate minimală este de 1,8 g/cm3. În rezultatul unor serii de experimente s-a determinat că practic 99,9% din reactivele produse au densitatea în intervalul (1,82; 1,86). Să se dermine probabilitatea că acidul satisface cerințele standard dacă pentru acesta este suficient ca densitatea acidului să devieze de la valoarea minimală cu nu mai mult de 0,01 g/cm3.
 
-14.365. În cazul unei variabile cu repartiția normală 15% dintre valorile variabilei sînt mai mici decît 12 și 40% dintre valori sînt mai mari decît 16,2. Să se dermine valoarea medie și abaterea medie pătratică a variabilei.
+**14.365.** În cazul unei variabile cu repartiția normală 15% dintre valorile variabilei sînt mai mici decît 12 și 40% dintre valori sînt mai mari decît 16,2. Să se dermine valoarea medie și abaterea medie pătratică a variabilei.
 
-14.366. O piesă produsă de un automat se consideră standard dacă devierea :math:`X` a mărimii de la valoarea minimală nu întrece 10 mm. Exactitatea producerii are abaterea medie pătartică :math:`\sigma`. Știind că :math:`\sigma=5` și :math:`X` are repartiția normală  să se dermine cîte procente dintre piesele fabricate sînt satndard.
+**14.366.** O piesă produsă de un automat se consideră standard dacă devierea :math:`X` a mărimii de la valoarea minimală nu întrece 10 mm. Exactitatea producerii are abaterea medie pătartică :math:`\sigma`. Știind că :math:`\sigma=5` și :math:`X` are repartiția normală  să se dermine cîte procente dintre piesele fabricate sînt satndard.
 
-14.367. În contextul problemei 14.366, determinați valoarea :math:`\sigma` astfel încît procentul de piese standard să fie 98.
+**14.367.** În contextul problemei 14.366, determinați valoarea :math:`\sigma` astfel încît procentul de piese standard să fie 98.
 
-14.368. Bumboanele de ciocolată se amplasează în cutii în mod automat. Greutatea medie a unei cutii este 1,06 kg. Se știe că 5% din cutii au greutatea mai mică decît 1 kg. Să se dermine procentul cutiilor greutatea cărora este > 940 g.
+**14.368. Bumboanele de ciocolată se amplasează în cutii în mod automat. Greutatea medie a unei cutii este 1,06 kg. Se știe că 5% din cutii au greutatea mai mică decît 1 kg. Să se dermine procentul cutiilor greutatea cărora este > 940 g.
 
-14.369. O piesă se produce la mașină. Mărimea acesteia :math:`X` reprezintă o variabilă aleatoare cu repartiția normală cu valoarea medie  20 cm și dispersia 0,2 cm2. Care este exactitatea aproximativă a piesei putem garanta cu probabilitatea 0,95?
+**14.369.** O piesă se produce la mașină. Mărimea acesteia :math:`X` reprezintă o variabilă aleatoare cu repartiția normală cu valoarea medie  20 cm și dispersia 0,2 cm2. Care este exactitatea aproximativă a piesei putem garanta cu probabilitatea 0,95?
 
-14.370. Se produs bile pentru rulmenți. O bilă este considerată standard dacă: bila trece printr-un orificiu cu diametrul d2 și nu trece printr-un alt orificiu cu diametrul d1<d2. Dacă cel putinuna din aceste condiții nu este satisfăcută bila se consideră nestandard. Diametrul bilei este o variabilă aleatoare X cu repartiția :math:`N(\frac{d_1+d_2}{2},\alpha\cdot(d_2-d_1))`, unde :math:`\alpha\in(0,\frac{1}{2})`  și :math:`\alpha` este un parametru care determină exactitatea producerii bilelor. Să se dermine probabilitatea că bila va fi nestandard.
+**14.370.** Se produs bile pentru rulmenți. O bilă este considerată standard dacă: bila trece printr-un orificiu cu diametrul d2 și nu trece printr-un alt orificiu cu diametrul d1<d2. Dacă cel putinuna din aceste condiții nu este satisfăcută bila se consideră nestandard. Diametrul bilei este o variabilă aleatoare X cu repartiția :math:`N(\frac{d_1+d_2}{2},\alpha\cdot(d_2-d_1))`, unde :math:`\alpha\in(0,\frac{1}{2})`  și :math:`\alpha` este un parametru care determină exactitatea producerii bilelor. Să se dermine probabilitatea că bila va fi nestandard.
 
-14.371. În contextul problemei 14.370, să se detrmine :math:`\alpha` pentru ca nestandardul să constituie nu mai mult de 2% din toată producția.
+**14.371.** În contextul problemei 14.370, să se detrmine :math:`\alpha` pentru ca nestandardul să constituie nu mai mult de 2% din toată producția.
 
-14.372. Variabila aleatoare :math:`X` are repartiția :math:`N(1,\sigma)`. Se știe că :math:`P\{X<2\}=0,99`. Să se determine :math:`M(X^2)` și :math:`P\{X^2>2\}`.
+**14.372.** Variabila aleatoare :math:`X` are repartiția :math:`N(1,\sigma)`. Se știe că :math:`P\{X<2\}=0,99`. Să se determine :math:`M(X^2)` și :math:`P\{X^2>2\}`.
 
 **14.373.** Variabila aleatoare :math:`X` are repartiția :math:`N(m,\sigma)`. Să se dermine :math:`p_1=P\{X\geq x_{n2}\}` și :math:`p_2=P\{x_{n1}\leq X\leq x_{n2}\}`, unde :math:`x_{n1}` și :math:`x_{n2}` sînt punctele de inflexiune ale curbei densității de probabilitate.
 

@@ -1,6 +1,15 @@
 Rezolvări
 ---------
 
+**14.361.** Dacă :math:`Y=\frac{X-m}{\sigma}`, atunci :math:`Y` are distribuția :math:`N(0,1)`. Într-adevăr, :math:`M(Y)=M(\frac{X-m}{\sigma})=\frac{M(X)-m}{\sigma}=0` și :math:`D(Y)=D(\frac{X-m}{\sigma})=\frac{D(X)}{\sigma^2}=1`. Funcția de repartiție a variabilei aleatoare :math:`Y` se notează prin :math:`\Phi`. 
+
+Vom încerca să exprimăm funcția de repariție :math:`F_X` a variabilei aleatoare :math:`X` prin :math:`\Phi` în felul următor:
+
+.. math::
+
+   F_X(x)=P\{X<x\}=P\{\sigma\cdot Y+m<x\}=P\{Y<\frac{x-m}{\sigma}\}=\Phi(\frac{x-m}{\sigma}).
+
+
 **14.373.**
 :math:`x_{n1}=m-\sigma`, :math:`x_{n2}=m+\sigma`. 
 :math:`P\{X\geq x_{n2}\}=1-P\{X< x_{n2}\}=1-\Phi(\frac{x_{n2}-m}{\sigma})=1-\Phi(\frac{m+\sigma-m}{\sigma})=1-\Phi(1)=1-0,8413=0,1587`.
