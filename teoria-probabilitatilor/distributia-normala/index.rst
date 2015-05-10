@@ -30,7 +30,13 @@ Dacă variabila :math:`X` are repartiția :math:`N(m,\sigma)`, atunci variabila 
 
 .. math::
 
-   P\{|X-m_X|<\varepsilon\}=2\Phi(\frac{\varepsilon}{\sigma})-1.
+   P\{|X-m_X|<\varepsilon\}=2\Phi(\frac{\varepsilon}{\sigma})-1,
+   
+deoarece    
+
+.. math::
+
+   \Phi(-x)=1-\Phi(x).
 
 Momentele centrate ale variabilei cu repartiția :math:`N(m,\sigma)` verifică urmatoarea relație de recurență 
 
@@ -60,13 +66,13 @@ Din tabelul P1 găsim că :math:`\Phi(1,5)\approx 0,9332`. Astfel
 
 **14.362.** Variabila aleatoare :math:`X` are repartiția :math:`N(m,\sigma)`. Folosind tabelul P1 să se determine probabilitatea :math:`p_k=P\{|X-m_X|<k\sigma\}`, unde :math:`k=\overline{1,3}`.
 
-**14.363.** Variabila aleatoare :math:`X` are repartiția :math:`N(10,5)`. Să se determine intervalul simetric în raport cu :math:`m_X` in care valorile variabilei nimers cu probabilitatea :math:`p`. Dacă se știe că: 
+**14.363.** Variabila aleatoare :math:`X` are repartiția :math:`N(10,5)`. Să se determine intervalul simetric în raport cu :math:`m_X` în care valorile variabilei nimeresc cu probabilitatea :math:`p`. Dacă se știe că: 
 
 a) :math:`p=0,9974`; 
 
 b) :math:`p=0,9544`;
 
-c) :math:`p=0,5`. 
+c) :math:`p=0,5`.
 
 **14.364.** O uzină chimică produce acid sulfuric a cărui densitate minimală este de 1,8 g/cm3. În rezultatul unor serii de experimente s-a determinat că practic 99,9% din reactivele produse au densitatea în intervalul (1,82; 1,86). Să se dermine probabilitatea că acidul satisface cerințele standard dacă pentru acesta este suficient ca densitatea acidului să devieze de la valoarea minimală cu nu mai mult de 0,01 g/cm3.
 
