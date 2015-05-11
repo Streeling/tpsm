@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Rezolvări &mdash; TPSM 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="TPSM 1.1 documentation" href="../../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="../../index.html">TPSM 1.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="rezolvari">
+<h1>Rezolvări<a class="headerlink" href="#rezolvari" title="Permalink to this headline">¶</a></h1>
+<p><strong>14.361.</strong> Dacă <span class="math">\(Y=\frac{X-m}{\sigma}\)</span>, atunci <span class="math">\(Y\)</span> are distribuția <span class="math">\(N(0,1)\)</span>. Într-adevăr, <span class="math">\(M(Y)=M(\frac{X-m}{\sigma})=\frac{M(X)-m}{\sigma}=0\)</span> și <span class="math">\(D(Y)=D(\frac{X-m}{\sigma})=\frac{D(X)}{\sigma^2}=1\)</span>. Funcția de repartiție a variabilei aleatoare <span class="math">\(Y\)</span> se notează prin <span class="math">\(\Phi\)</span>.</p>
+<p>Vom încerca să exprimăm funcția de repariție <span class="math">\(F_X\)</span> a variabilei aleatoare <span class="math">\(X\)</span> prin <span class="math">\(\Phi\)</span> în felul următor:</p>
+<div class="math">
+\[\begin{split}F_X(x)=P\{X&lt;x\}=P\{\sigma\cdot Y+m&lt;x\}=P\{Y&lt;\frac{x-m}{\sigma}\}=\Phi(\frac{x-m}{\sigma}).\end{split}\]</div>
+<p><strong>14.362.</strong>
+<span class="math">\(p_k=P\{|X-m_X|&lt;k\sigma\}=2\Phi(k)-1.\)</span> Respectiv:</p>
+<ol class="arabic simple">
+<li><span class="math">\(p_1=2\Phi(1)-1\approx 2\cdot 0,8413-1\approx 0,6826\)</span>.</li>
+<li><span class="math">\(p_2=2\Phi(1)-1\approx 2\cdot 0,9772-1\approx 0,9544\)</span>.</li>
+<li><span class="math">\(p_3=2\Phi(1)-1\approx 2\cdot 0,9987-1\approx 0,9974\)</span>.</li>
+</ol>
+<p><strong>14.363.</strong></p>
+<p><span class="math">\(P\{|X-10|&lt;\varepsilon\}=2\Phi(\frac{\varepsilon}{5})-1\Rightarrow \Phi(\frac{\varepsilon}{5})=\frac{P+1}{2}\)</span>.</p>
+<ol class="loweralpha simple">
+<li><span class="math">\(\Phi(\frac{\varepsilon}{5})=\frac{0,9974+1}{2}=0,9987\Rightarrow \frac{\varepsilon}{5}\approx 3\Rightarrow \varepsilon\approx 15\Rightarrow X\in (-5,25)\)</span>.</li>
+<li><span class="math">\(\Phi(\frac{\varepsilon}{5})=\frac{0,9544+1}{2}=0,9772\Rightarrow \frac{\varepsilon}{5}\approx 2\Rightarrow \varepsilon\approx 10 \Rightarrow X\in (0,20)\)</span>.</li>
+<li><span class="math">\(\Phi(\frac{\varepsilon}{5})=\frac{0,5+1}{2}=0,75\Rightarrow \frac{\varepsilon}{5}\approx 0,67\Rightarrow \varepsilon\approx 3,35 \Rightarrow X\in (6,65;13,35)\)</span>.</li>
+</ol>
+<p><strong>14.364.</strong>
+<span class="math">\(P\{|X-1,84|&lt;0,02\}=2\Phi(\frac{0,02}{\sigma})-1=0,999\Rightarrow \Phi(\frac{0,02}{\sigma})=\frac{0,999+1}{2}=0,9995\Rightarrow \frac{0,02}{\sigma}\approx 3,3\Rightarrow \sigma\approx 0,006\)</span>.</p>
+<p>Rezultă că <span class="math">\(P\{|X-1,84|&lt;0,01\}=2\Phi(\frac{0,01}{0,006})-1\approx 2\Phi(1,67)-1\approx 2\cdot 0,9525 -1\approx 0,905\)</span>.</p>
+<p><strong>14.365.</strong>
+<span class="math">\(P\{X&lt;12\}=0,15\Rightarrow \Phi(\frac{12-m}{\sigma})=0,15\Rightarrow \Phi(-\frac{12-m}{\sigma})=1-\Phi(\frac{12-m}{\sigma})=1-0,15\Rightarrow \Phi(-\frac{12-m}{\sigma})=0,85\Rightarrow -\frac{12-m}{\sigma}\approx 1,04\Rightarrow m-12\approx 1,04\sigma\)</span>.</p>
+<p><span class="math">\(P\{X&gt;16,2\}=0,4\Rightarrow P\{X&lt;16,2\}=1-0,4\Rightarrow \Phi(\frac{16,2-m}{\sigma})=0,6\Rightarrow \frac{16,2-m}{\sigma}\approx 0,25\Rightarrow 16,2-m\approx 0,25\sigma\)</span>.</p>
+<p><strong>14.366.</strong>
+<span class="math">\(P\{|X-m_X|&lt;10\}=2\Phi(\frac{10}{5})-1=2\Phi(2)-1\approx 2\cdot 0,9772-1\approx 0.9544\approx 95%\)</span>.</p>
+<p><strong>14.367.</strong>
+<span class="math">\(P\{|X-m_X|&lt;10\}=0,98\Rightarrow \Phi(\frac{10}{\sigma})=\frac{0,98+1}{2}=0,99\Rightarrow \frac{10}{\sigma}\approx 2,33\Rightarrow \sigma\approx 4.292\)</span>.</p>
+<p><strong>14.368.</strong>
+<span class="math">\(P\{X&lt;1\}=0,05\Rightarrow \Phi(\frac{1-1,06}{\sigma})=0,05\)</span>.</p>
+<p>Echivalent <span class="math">\(\Phi(-\frac{1-1,06}{\sigma})=1-\Phi(\frac{1-1,06}{\sigma})=1-0,05=0.95\Rightarrow -\frac{1-1,06}{\sigma}\approx 1.65\Rightarrow \sigma\approx 0,03636\)</span>.</p>
+<p>Respectiv <span class="math">\(P\{X&gt;0,940\}=1-P\{X&lt;0,940\}=1-\Phi(\frac{0,94-1,06}{0,03636})\approx 1-\Phi(-3,3)=\Phi(3,3)\approx 0,9995\)</span>.</p>
+<p><strong>14.369.</strong>
+<span class="math">\(P\{|X-20|&lt;\varepsilon\}\approx 2\Phi(\frac{\varepsilon}{0,4472})-1=0,95\Rightarrow \frac{\varepsilon}{0,4472}=0.975\Rightarrow \frac{\varepsilon}{0,4472}\approx 1,96\)</span>.</p>
+<p>Astfel <span class="math">\(\varepsilon\approx 0,8765\)</span>.</p>
+<p><strong>14.370.</strong>
+<span class="math">\(P\{d_1\leq X&lt; d_2\}=\Phi(\frac{d_2-\frac{d_1+d_2}{2}}{\alpha(d_2-d_1)})-\Phi(\frac{d_1-\frac{d_1+d_2}{2}}{\alpha(d_2-d_1)})\)</span>.</p>
+<p><strong>14.373.</strong>
+<span class="math">\(x_{n1}=m-\sigma\)</span>, <span class="math">\(x_{n2}=m+\sigma\)</span>.
+<span class="math">\(P\{X\geq x_{n2}\}=1-P\{X&lt; x_{n2}\}=1-\Phi(\frac{x_{n2}-m}{\sigma})=1-\Phi(\frac{m+\sigma-m}{\sigma})=1-\Phi(1)=1-0,8413=0,1587\)</span>.
+<span class="math">\(P\{x_{n1}\leq X\leq x_{n2}\}=\Phi(\frac{m+\sigma-m}{\sigma})-\Phi(\frac{m-\sigma-m}{\sigma})=\Phi(1)-\Phi(-1)=\Phi(1)-(1-\Phi(1))=2\Phi(1)-1=2\cdot 0,8413-1=0,6826\)</span>.</p>
+<p><strong>14.374**.</strong>
+<span class="math">\(Q(\sigma)=\Phi(\frac{b-m}{\sigma})-\Phi(\frac{a-m}{\sigma})\)</span>; <span class="math">\(Q'(\sigma)=-\frac{1}{\sigma^2}((b-m)\Phi'(\frac{b-m}{\sigma})-(a-m)\Phi'(\frac{a-m}{\sigma}))\)</span>. Respectiv <span class="math">\(Q'(\sigma)=0\Leftrightarrow (b-m) e^{-\frac{(b-m)^2}{2\sigma^2}}-(a-m)e^{-\frac{(a-m)^2}{2\sigma^2}}=0\)</span></p>
+<p><strong>14.375.</strong>
+<span class="math">\(M(|X-m_X|)=\int_{-\infty}^{\infty}|x-m|f(x)dx=\int_{-\infty}^m(x-m)f(x)dx-\int_m^{\infty}(x-m)|f(x)dx\)</span></p>
+<p><strong>14.376.</strong>
+<span class="math">\(a_X=\frac{\mu_3}{\sigma_X^3}=\frac{0}{1^3}=0\)</span>.</p>
+<p><span class="math">\(e_X=\frac{\mu_4}{\sigma_X^4}-3\)</span>, <span class="math">\(\mu_4=\mu_2+2=(2+1)\sigma^2\cdot\mu_2=3\cdot 1^2\cdot 1^2=3\)</span>, deci <span class="math">\(e_X=\frac{3}{1^4}-3=0\)</span>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/teoria-probabilitatilor/distributia-normala/rezolvari.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="../../index.html">TPSM 1.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, Radu Dumbrăveanu.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
