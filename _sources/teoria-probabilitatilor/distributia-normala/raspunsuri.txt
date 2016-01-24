@@ -20,18 +20,6 @@ c) :math:`X\in (6,65;13,35)`.
 **14.364.** 
 :math:`P\{|X-1,84|<0,01\}\approx 0,905`.
 
-**14.366.**
-:math:`\approx 95%`.
-
-**14.367.**
-:math:`\sigma\approx 4.292`.
-
-**14.368.**
-:math:`P\{X>0,940\}\approx 0,9995`.
-
-**14.369.**
-:math:`\varepsilon\approx 0,8765`.
-
 **14.373.** 
 :math:`P\{X\geq x_{n2}\}0,1587`.
 :math:`P\{x_{n1}\leq X\leq x_{n2}\}=0,6826`.

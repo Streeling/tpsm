@@ -36,26 +36,6 @@ Rezultă că :math:`P\{|X-1,84|<0,01\}=2\Phi(\frac{0,01}{0,006})-1\approx 2\Phi(
 
 :math:`P\{X>16,2\}=0,4\Rightarrow P\{X<16,2\}=1-0,4\Rightarrow \Phi(\frac{16,2-m}{\sigma})=0,6\Rightarrow \frac{16,2-m}{\sigma}\approx 0,25\Rightarrow 16,2-m\approx 0,25\sigma`.
 
-**14.366.**
-:math:`P\{|X-m_X|<10\}=2\Phi(\frac{10}{5})-1=2\Phi(2)-1\approx 2\cdot 0,9772-1\approx 0.9544\approx 95%`.
-
-**14.367.**
-:math:`P\{|X-m_X|<10\}=0,98\Rightarrow \Phi(\frac{10}{\sigma})=\frac{0,98+1}{2}=0,99\Rightarrow \frac{10}{\sigma}\approx 2,33\Rightarrow \sigma\approx 4.292`.
-
-**14.368.**
-:math:`P\{X<1\}=0,05\Rightarrow \Phi(\frac{1-1,06}{\sigma})=0,05`. 
-
-Echivalent :math:`\Phi(-\frac{1-1,06}{\sigma})=1-\Phi(\frac{1-1,06}{\sigma})=1-0,05=0.95\Rightarrow -\frac{1-1,06}{\sigma}\approx 1.65\Rightarrow \sigma\approx 0,03636`.
-
-Respectiv :math:`P\{X>0,940\}=1-P\{X<0,940\}=1-\Phi(\frac{0,94-1,06}{0,03636})\approx 1-\Phi(-3,3)=\Phi(3,3)\approx 0,9995`.
-
-**14.369.**
-:math:`P\{|X-20|<\varepsilon\}\approx 2\Phi(\frac{\varepsilon}{0,4472})-1=0,95\Rightarrow \frac{\varepsilon}{0,4472}=0.975\Rightarrow \frac{\varepsilon}{0,4472}\approx 1,96`.
-
-Astfel :math:`\varepsilon\approx 0,8765`.
-
-**14.370.**
-:math:`P\{d_1\leq X< d_2\}=\Phi(\frac{d_2-\frac{d_1+d_2}{2}}{\alpha(d_2-d_1)})-\Phi(\frac{d_1-\frac{d_1+d_2}{2}}{\alpha(d_2-d_1)})`.
 
 **14.373.**
 :math:`x_{n1}=m-\sigma`, :math:`x_{n2}=m+\sigma`. 

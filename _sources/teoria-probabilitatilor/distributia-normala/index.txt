@@ -82,11 +82,11 @@ c) :math:`p=0,5`.
 
 **14.367.** În contextul problemei 14.366, determinați valoarea :math:`\sigma` astfel încît procentul de piese standard să fie 98.
 
-**14.368.** Bumboanele de ciocolată se amplasează în cutii în mod automat. Greutatea medie a unei cutii este 1,06 kg. Se știe că 5% din cutii au greutatea mai mică decît 1 kg. Să se dermine procentul cutiilor greutatea cărora este > 940 g.
+**14.368. Bumboanele de ciocolată se amplasează în cutii în mod automat. Greutatea medie a unei cutii este 1,06 kg. Se știe că 5% din cutii au greutatea mai mică decît 1 kg. Să se dermine procentul cutiilor greutatea cărora este > 940 g.
 
 **14.369.** O piesă se produce la mașină. Mărimea acesteia :math:`X` reprezintă o variabilă aleatoare cu repartiția normală cu valoarea medie  20 cm și dispersia 0,2 cm2. Care este exactitatea aproximativă a piesei putem garanta cu probabilitatea 0,95?
 
-**14.370.** Se produc bile pentru rulmenți. O bilă este considerată standard dacă: bila trece printr-un orificiu cu diametrul d2 și nu trece printr-un alt orificiu cu diametrul d1<d2. Dacă cel putinuna din aceste condiții nu este satisfăcută bila se consideră nestandard. Diametrul bilei este o variabilă aleatoare X cu repartiția :math:`N(\frac{d_1+d_2}{2},\alpha\cdot(d_2-d_1))`, unde :math:`\alpha\in(0,\frac{1}{2})`  și :math:`\alpha` este un parametru care determină exactitatea producerii bilelor. Să se dermine probabilitatea că bila va fi nestandard.
+**14.370.** Se produs bile pentru rulmenți. O bilă este considerată standard dacă: bila trece printr-un orificiu cu diametrul d2 și nu trece printr-un alt orificiu cu diametrul d1<d2. Dacă cel putinuna din aceste condiții nu este satisfăcută bila se consideră nestandard. Diametrul bilei este o variabilă aleatoare X cu repartiția :math:`N(\frac{d_1+d_2}{2},\alpha\cdot(d_2-d_1))`, unde :math:`\alpha\in(0,\frac{1}{2})`  și :math:`\alpha` este un parametru care determină exactitatea producerii bilelor. Să se dermine probabilitatea că bila va fi nestandard.
 
 **14.371.** În contextul problemei 14.370, să se detrmine :math:`\alpha` pentru ca nestandardul să constituie nu mai mult de 2% din toată producția.
 
